@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Document</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<form method="GET" action="/itung.php" id="frm">
+			<input type="text" id="a_textfield" value="22" />
+			<input type="text" id="b_textfield" value="7" />
+			<button type="submit">HITUNG</button>
+		</form>
+
+		<div class="result">
+			<div>
+				<span style="vertical-align: top">Bulat :</span>
+				<textarea
+					rows="10"
+					id="bulat_view"
+					style="width: 90%"
+					readonly="true"
+				>0</textarea>
+			</div>
+			<div>Sisa : <span id="sisa_view">0</span></div>
+			<div>iterasi ke- : <span id="iterasiKe_view">0</span></div>
+			<div>0 : <span id="nol_view">0</span></div>
+			<div>1 : <span id="satu_view">0</span></div>
+			<div>2 : <span id="dua_view">0</span></div>
+			<div>3 : <span id="tiga_view">0</span></div>
+			<div>4 : <span id="empat_view">0</span></div>
+			<div>5 : <span id="lima_view">0</span></div>
+			<div>6 : <span id="enam_view">0</span></div>
+			<div>7 : <span id="tujuh_view">0</span></div>
+			<div>8 : <span id="delapan_view">0</span></div>
+			<div>9 : <span id="sembilan_view">0</span></div>
+		</div>
+
+		<script src="fetch.js"></script>
+	</body>
+</html>
